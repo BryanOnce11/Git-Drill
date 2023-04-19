@@ -1,0 +1,42 @@
+2-3
+echo > happiness.txt
+git init
+git add .
+git commit -m "first commit"
+4-5
+echo > humor.txt
+git add .
+git commit -m "second commit"
+6
+git add .
+git commit -m "third commit"
+7
+git revert HEAD
+:wq
+8
+git revert -n HEAD
+git commit -m "reverted revert"
+9
+git log
+git reset --hard (7char of 3rd commit)
+10
+git branch motivational-quotes
+11
+git switch motivational-quotes
+echo > motivational_quotes
+12
+git add "motivational_quotes"
+git commit -m "added motivational quotes"
+13
+git switch master
+14
+git merge motivational-quotes
+15
+git mergetool
+16
+git log
+17
+git branch -d motivational-quotes
+18
+git remote add origin (linkmo)
+git push -u origin master
